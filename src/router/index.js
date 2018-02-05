@@ -8,13 +8,38 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: resolve => require(['../components/common/Home.vue'], resolve)
+      component: resolve => require(['../components/common/StuHome.vue'], resolve)
       //name: 'HelloWorld',
       //component: HelloWorld
     },
     {
+      path :'/student',
+      component: resolve => require(['../components/common/StuHome.vue'], resolve),
+      children:[
+        {
+          path:'/baseform',
+          component: resolve => require(['../components/page/BaseForm.vue'], resolve)
+          
+          
+        },
+        {
+          path:'/coursetable',
+          component: resolve => require(['../components/page/BaseTable.vue'], resolve)
+          
+          
+        },
+        
+        {
+          path:'/paperofstu',
+          component: resolve => require(['../components/page/PaperOfStu.vue'], resolve)
+          
+          
+        }]
+      
+    },
+    {
       path :'/readme',
-      component: resolve => require(['../components/common/Home.vue'], resolve),
+      component: resolve => require(['../components/common/StuHome.vue'], resolve),
       children:[
         {
           path:'/baseform',
