@@ -28,12 +28,12 @@
                     {
                         icon: 'el-icon-menu',
                         index: '2',
-                        title: '我的课程',
+                        title: '我的学习',
                         subs: [
-                            {
-                                index: 'coursetable',
-                                title: '信息论'
-                            },
+                            //{
+                            //    index: 'coursetable',
+                            //    title: '我的课程'
+                            //},
                             {
                                 index: 'paperofstu',
                                 title: '毕业论文'
@@ -70,14 +70,14 @@
                     //},
                     {
                         icon: 'el-icon-upload2',
-                        index: 'personinfo',
+                        index: 'stupersoninfo',
                         title: '个人信息'
-                    },
+                    }/*,
                     {
                         icon: 'el-icon-setting',
                         index: 'readme',
                         title: '帮助'
-                    }
+                    }*/
                 ]
             }
         },

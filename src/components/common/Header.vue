@@ -8,8 +8,6 @@
                     {{username}}
                 </span>
                 <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item command="loginout">个人信息</el-dropdown-item>
-                    <el-dropdown-item command="loginout">修改密码</el-dropdown-item>
                     <el-dropdown-item command="loginout">退出</el-dropdown-item>
                 </el-dropdown-menu>
             </el-dropdown>
@@ -20,7 +18,7 @@
     export default {
         data() {
             return {
-                name: 'zilizhou'
+                name: '游客'
             }
         },
         computed:{
@@ -33,7 +31,8 @@
             handleCommand(command) {
                 if(command == 'loginout'){
                     localStorage.removeItem('ms_username')
-                    this.$router.push('/login');
+                    
+                    this.$router.push('/');
                 }
             }
         }

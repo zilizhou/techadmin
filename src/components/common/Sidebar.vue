@@ -30,39 +30,39 @@
                         index: '2',
                         title: '我的教学',
                         subs: [
-                            {
-                                index: 'basetable',
-                                title: '信息论'
-                            },
+                            //{
+                            //    index: 'basetable',
+                            //    title: '信息论'
+                            //},
                             {
                                 index: 'stupapertable',
                                 title: '毕业论文'
                             }
                         ]
                     },
-                    {
-                        icon: 'el-icon-date',
-                        index: '3',
-                        title: '我的科研',
-                        subs: [
-                            {
-                                index: 'baseform',
-                                title: '我的论文'
-                            },
-                            {
-                                index: 'vueeditor',
-                                title: '我的项目'
-                            },
-                            {
-                                index: 'papertable',
-                                title: '论文测试'
-                            },
-                            {
-                                index: 'upload',
-                                title: '文件上传'
-                            }
-                        ]
-                    },
+                    //{
+                    //    icon: 'el-icon-date',
+                    //    index: '3',
+                    //    title: '我的科研',
+                    //    subs: [
+                    //        {
+                    //            index: 'baseform',
+                    //            title: '我的论文'
+                    //        },
+                    //        {
+                    //            index: 'vueeditor',
+                    //            title: '我的项目'
+                    //        },
+                    //        {
+                    //            index: 'papertable',
+                    //            title: '论文测试'
+                    //        },
+                    //        {
+                    //            index: 'upload',
+                    //            title: '文件上传'
+                    //        }
+                    //    ]
+                    //},
                     //{
                     //    icon: 'el-icon-star-on',
                     //    index: 'basecharts',
@@ -70,14 +70,14 @@
                     //},
                     {
                         icon: 'el-icon-upload2',
-                        index: 'personinfo',
+                        index: 'teapersoninfo',
                         title: '个人信息'
-                    },
+                    }/*,
                     {
                         icon: 'el-icon-setting',
                         index: 'readme',
                         title: '帮助'
-                    }
+                    }*/
                 ]
             }
         },
